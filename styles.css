@@ -38,7 +38,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-shadow: 0px 0px 10px #33ff33;
+    color: #e4bc0e;
+    font-size: 20px;
 }
 
 section {
@@ -53,7 +54,7 @@ section {
     gap: 20px;
 }
 
-.project {
+.project{
     background: #222;
     padding: 20px;
     border-radius: 10px;
@@ -64,6 +65,49 @@ section {
 
 .project:hover {
     transform: scale(1.05);
+    color : #e4bc0e;
+}
+
+.project a {
+    color: #33ff33;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.project a:hover {
+    color: #e4bc0e;
+}
+
+#contact a {
+    text-decoration: none; 
+}
+  
+#contact a:hover {
+    text-decoration: underline; 
+}
+
+#contact a[href^="mailto:"] {
+    color: #9058f8; 
+}
+
+#contact a[href^="mailto:"]:hover {
+    color: #e4bc0e; 
+}
+
+#contact a[href*="github.com"] {
+    color: #9058f8; 
+}
+
+#contact a[href*="github.com"]:hover {
+    color: #e4bc0e; 
+}
+
+#contact a[href*="linkedin.com"] {
+    color: #9058f8; 
+}
+
+#contact a[href*="linkedin.com"]:hover {
+    color: #e4bc0e; 
 }
 
 footer {
